@@ -1,2 +1,35 @@
-#
-![image](docs/tictactoe.png)
+# Tic Tac Toe
+
+Este projeto é a implementação do jogo **Tic Tac Toe** utilizando o algoritmo **Minimax**.
+
+## O que é o Minimax?
+
+O **Minimax** é um algoritmo de tomada de decisão utilizado em jogos de soma zero, onde dois jogadores alternam suas jogadas. Ele é amplamente utilizado em inteligência artificial para determinar a melhor jogada possível, assumindo que o oponente também está jogando de forma ótima. No contexto do Tic Tac Toe, o Minimax analisa todas as possíveis jogadas futuras e seleciona a que maximiza as chances de vitória do jogador enquanto minimiza as chances de vitória do oponente.
+
+## Estrutura do Projeto
+
+- **runner.py**: Responsável pela interface gráfica do jogo, criação do tabuleiro e interação com o usuário.
+- **tictactoe.py**: Implementa os algoritmos Minimax e gerencia as movimentações e lógica do jogo.
+
+## Como Jogar?
+
+1. **Configuração Inicial**  
+   Certifique-se de ter o [Python](https://www.python.org/downloads/) instalado em seu sistema.
+
+2. **Instalar as Dependências**  
+   Abra o terminal na raiz do projeto e execute o seguinte comando para instalar os requerimentos necessários:
+   
+   ```bash
+   pip install -r requirements.txt
+   ```
+3.**Executar o Jogo**
+    ```bash
+    python runner.py
+    ```
+4.***Interação***
+    Utilize a interface gráfica para fazer suas jogadas. O algoritmo Minimax cuidará das respostas do oponente, garantindo uma experiência desafiadora.
+
+***Contribuição***
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request para melhorar este projeto.
+
+
